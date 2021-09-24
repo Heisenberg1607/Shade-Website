@@ -1,0 +1,220 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "karla";
+  overflow-x: hidden;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+
+  font-size: 16px;
+
+  margin-top: -2rem;
+  margin-left: 25rem;
+}
+nav {
+  /* margin: 1rem; */
+  display: flex;
+  margin: 3rem;
+  padding-bottom: 7rem;
+}
+.active {
+  display: flex;
+  margin-left: 3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.web-title {
+  margin-left: 2rem;
+}
+
+.logo {
+  font-size: 25px;
+  color: #535b76;
+  margin-left: 155px;
+}
+.logins {
+  display: flex;
+  width: 200px;
+  margin-left: 1200px;
+  margin-top: -3rem;
+}
+
+.start-btn {
+  margin-left: 1rem;
+  background-color: #1290a4;
+  color: white;
+  border-radius: 3px;
+  border: 0px;
+  width: 8rem;
+  height: 3rem;
+  padding: 8px;
+}
+.sign-btn {
+  margin-top: 0.5rem;
+  color: #535b76;
+}
+/* Hero section */
+
+.info-part h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1f1f1f;
+
+  line-height: 3rem;
+}
+.info {
+  font-size: 17px;
+  padding-top: 2rem;
+  color: #222f3f;
+  line-height: 36px;
+}
+.email-field {
+  width: 19rem;
+  height: 3rem;
+  background-color: #eef4f5;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 17px;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+.below-btn {
+  margin-top: 1rem;
+  color: #535b76;
+  font-size: 17px;
+  line-height: 36px;
+}
+span {
+  color: #4d9ffe;
+}
+
+/* features section */
+
+.curve {
+  margin-top: 6rem;
+  background: #fff;
+  margin-bottom: 5rem;
+}
+.features {
+  background-color: #eef4f5;
+}
+.section-heading {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.section-heading h1 {
+  font-size: 3rem;
+}
+
+/* cards */
+
+.arrow {
+  width: 15rem;
+  padding-right: 90px;
+  color: red;
+}
+
+.empty-space {
+  background-color: #eef4f5;
+  height: 10rem;
+}
+.card a {
+  font-weight: bold;
+  color: #34a0b1;
+}
+.card {
+  height: 25rem;
+  padding-top: 20px;
+}
+.card-head {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card span {
+  padding-left: 10px;
+  color: #34a0b1;
+  font-weight: bold;
+}
+
+.response-space {
+  height: 10rem;
+}
+.sub-response {
+  margin-bottom: 10rem;
+}
+.response-info {
+  margin-top: 7rem;
+
+  margin-left: 10rem;
+}
+.response-info h2 {
+  font-weight: bold !important;
+  font-size: 48px;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+.response-info p {
+  font-size: 1.3rem;
+}
+.response-info a {
+  font-weight: bold;
+  color: #34a0b1;
+}
+.response-info span {
+  padding-left: 10px;
+  color: #34a0b1;
+  font-weight: bold;
+}
+
+/* to-do */
+
+.to-do {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #f8f8f8;
+}
+.lists h1 {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+.lists ul {
+  list-style-type: none;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.4px;
+  color: #000000;
+  margin-bottom: 20px;
+  padding-top: 3rem;
+}
+.lists p {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: -0.4px;
+  color: #333333;
+  font-weight: bold;
+}
+.lists i {
+  padding-right: 10px;
+  color: #258aff;
+  padding-right: -40px;
+}
+.lists li {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
